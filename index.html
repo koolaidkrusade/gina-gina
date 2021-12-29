@@ -47,5 +47,29 @@
         </form>
         
         <p> Already have an account? <a href = "login.html"> Log in here. </a> </p>
+    
+        <script type="module">
+            // Import the functions you need from the SDKs you need
+            import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js";
+            import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-analytics.js";
+            // TODO: Add SDKs for Firebase products that you want to use
+            // https://firebase.google.com/docs/web/setup#available-libraries
+          
+            // Your web app's Firebase configuration
+            // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+            const firebaseConfig = {
+              apiKey: "AIzaSyD6HrD6znU220A1uED9tNSMysU0x7g4jus",
+              authDomain: "gina-gina.firebaseapp.com",
+              projectId: "gina-gina",
+              storageBucket: "gina-gina.appspot.com",
+              messagingSenderId: "940139974013",
+              appId: "1:940139974013:web:8c49820c089e4a0981d014",
+              measurementId: "G-TSD9MC3Z4D"
+            };
+          
+            // Initialize Firebase
+            const app = initializeApp(firebaseConfig);
+            const analytics = getAnalytics(app);
+          </script>
     </body>
 </html>
