@@ -36,6 +36,18 @@ button:hover, button:active {
     background: rgb(79, 193, 79);
 }
 
+article {
+    background: rgb(255, 254, 178);
+    border-radius: 25px;
+    padding: 20px; 
+    width: 200px;
+
+}
+
+article p {
+    color: rgb(0, 0, 0);
+}
+
 a {
     color: rgb(251, 249, 249);
 }
