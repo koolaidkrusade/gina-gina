@@ -76,6 +76,10 @@ article p, article span {
 h1, h3, h4 {
     color: rgb(0, 0, 0);
 }
+span {
+    padding-left: 1.5em;
+    text-indent:-1.5em;
+}
 
 a {
     color: rgb(251, 249, 249);
