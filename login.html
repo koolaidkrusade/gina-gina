@@ -1,35 +1,45 @@
 <html>
     <head>
+        <!-- This titles the page in the browser. -->
         <title>
             Log In - Gina Gina
         </title>
-        
-        <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+        <!-- This enables mobile browser support, identifies the alphabet
+             we're using, and links the style sheet. -->
+        <meta name = "viewport" content = "width = device-width,
+            initial-scale = 1">
         <meta charset = "utf-8">
         <link rel = "stylesheet" href = "css/styles.css"/>
     </head>
 
     <header>
-        <!-- Later in the process, try making this logo responsive for width and resolution. -->
+        <!-- Gina's logo -->
+        <!-- Later in the process, try making this logo responsive
+             for width and resolution. -->
         <img src = "images/logo.png" 
         alt = "Gina Gina Blog logo made of neon lights"
         width = "300" height = "185"> 
     </header>
     
     <body>
-        <p> <h2> Log in to access and interact with Gina Gina blog content. </h2> </p>
+        <p> <h2> 
+            Log in to access and interact with Gina Gina blog content. 
+        </h2> </p>
+
+        <!-- Log-in form, once completed takes you to the blog -->
         <form action = "blog.html">
             
-            <!-- <label for = "username"> Username: </label> -->
             <input type = "text" placeholder = "Username" 
             id = "username" name = "username" required> <br> <br>
             
-            <!-- <label for = "password"> Password: </label> -->
             <input type = "password" placeholder = "Password" 
             id = "password" name = "password" required> <br> <br>
 
             <button type = "submit"> &#x2192  </buttontype> </button>
         </form>
-        <p> Don't have an account? <a href = "index.html"> Sign up here. </a> </p>
+
+        <!-- This links you to the sign-up page. -->
+        <p> Don't have an account? <a href = "index.html"> 
+            Sign up here. </a> </p>
     </body>
 </html>

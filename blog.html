@@ -1,76 +1,137 @@
 <html>
     <head>
+        <!-- This titles the page in the browser. -->
         <title>
             Blog - Gina Gina
         </title>
-        <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+        <!-- This enables mobile browser support, identifies the alphabet
+             we're using, and links the style sheet. -->
+        <meta name = "viewport" content = "width = device-width, 
+            initial-scale = 1">
         <meta charset = "utf-8">
         <link rel = "stylesheet" href = "css/styles.css"/>
     </head>
 
     <header>
+        <!-- Gina's header ads -->
         <img src = "images/ad-carousel.gif" 
         alt = "Ads because Gina wants money"
         width = "300" height = "51"> <br> <br>
         
-        <!-- Later in the process, try making this logo responsive for width and resolution. -->
+        <!-- Gina's logo -->
+        <!-- Later in the process, try making this logo responsive
+             for width and resolution. -->
         <img src = "images/logo.png" 
         alt = "Gina Gina Blog logo made of neon lights"
         width = "300" height = "185"> 
     </header>
 
     <body>
+        <!-- Each article is an individual blog post
+             with reactions and a comment section. -->
         <article class = "center">
-            <p class = "blogpost"> <img src = "images/default-profile.png" 
-            alt = "Gina's profile picture"
-            width = "80" height = "44">
-            <b>Posted by Gina</b></p>
+            <!-- The poster tag (Most of the time, Gina has posted.) -->
+            <p class = "blog-poster-tag"> 
+                <img src = "images/default-profile.png" 
+                alt = "Gina's profile picture"
+                width = "80" height = "44">
+                <b> Posted by Gina </b>
+            </p>
 
-            <div class = "postcontent">
-                <p><h1>A blog post</h1></p>
+            <!-- The content of the blog post Gina made -->
+            <div class = "post-content">
+                <!-- Title of the post -->
+                <p><h1> A blog post </h1></p>
 
+                <!-- Image in the post -->
                 <img src = "images/demo-post.png" 
                 alt = "A beautiful picture of Gina"
                 width = "350" height = "490">
 
-                <p><b>Gina:</b> This is my caption for this post.</p>
+                <!-- Post caption -->
+                <p><b> Gina: </b> This is my caption for this post. </p>
             </div>
 
-            <p> 5 &#128077 &nbsp &nbsp 3 &#128151 &nbsp &nbsp 0 &#128525 &nbsp &nbsp 2 &#128514
-                &nbsp &nbsp 0 &#128558 &nbsp &nbsp 6 &#128549 &nbsp &nbsp 2 &#128545 </p>
+            <!-- These are the reaction buttons.
+                 Every reaction and every count has a unique ID -->
+            <p> 
+                <span id = "thumbs-up-num"> 5 </span>
+                <span class = "reaction" id = "thumbs-up"> &#128077 </span>
+                &nbsp &nbsp
+                <span id = "heart-num"> 3 </span>
+                <span class = "reaction" id = "heart"> &#128151 </span>
+                &nbsp &nbsp 
+                <span id = "heart-eyes-num"> 0 </span>
+                <span class = "reaction" id = "heart-eyes"> &#128525 </span>
+                &nbsp &nbsp 
+                <span id = "laughing-num"> 2 </span>
+                <span class = "reaction" id = "laughing"> &#128514 </span>
+                &nbsp &nbsp 
+                <span id = "shocked-num"> 0 </span>
+                <span class = "reaction" id = "shocked"> &#128558 </span>
+                &nbsp &nbsp 
+                <span id = "sad-num"> 6 </span>
+                <span class = "reaction" id = "sad"> &#128549 </span>
+                &nbsp &nbsp 
+                <span id = "mad-num"> 2 </span>
+                <span class = "reaction" id = "mad"> &#128545 </span>
+            </p>
             
-            <div class = "commentsection">
-                <span> <img src = "images/default-profile.png" 
-                alt = "Somebody else's profile picture"
-                width = "60" height = "32">
-                <b>bahaar:</b> <span class = "comment">Wow! I love this post so so so so so so so so so so so so so so so so so so so so much</span></span>
-
+            <!-- The comment section, includes all comments 
+                 and the submission form -->
+            <div class = "comment-section">
+                <!-- This is a sample comment, including the profile picture,
+                     username, and comment itself. This sample comment in 
+                     particular tests how line breaks behave -->
+                <span>
+                    <img src = "images/default-profile.png" 
+                    alt = "Somebody else's profile picture"
+                    width = "60" height = "32">
+                    <b> bahaar: </b> <span class = "comment"> Wow! I love 
+                        this post so so so so so so so so so so so so so so so 
+                        so so so so so much </span>
+                </span>
                 <br> 
 
-                <span> <img src = "images/default-profile.png" 
-                alt = "Somebody else's profile picture"
-                width = "60" height = "32">
-                <b>giada1198:</b> <span class = "comment">This post sucks!!</span></span>
+                <!-- This is a sample comment, including the profile picture,
+                     username, and comment itself. -->
+                <span> 
+                    <img src = "images/default-profile.png" 
+                    alt = "Somebody else's profile picture"
+                    width = "60" height = "32">
+                    <b> giada1198: </b> <span class = "comment"> 
+                    This post sucks!! </span>
+                </span>
             
+                <!-- This is the form for submitting a comment. -->
                 <form>
                     <img src = "images/default-profile.png" 
                     alt = "Your profile picture"
                     width = "60" height = "32">
                     <input type = "text" placeholder = "Add a comment..." 
-                    id = "comment" name = "comment" class = "commentbox" required>
-                    <button class = "commentsubmit" type = "submit"> &#x2192 </buttontype> </button>
+                    id = "comment" name = "comment" 
+                    class = "commentbox" required>
+                    <button class = "commentsubmit" 
+                    type = "submit"> &#x2192 </buttontype> </button>
                 </form>
             </div>
+            <!-- Above ends the comment section. -->
         </article>
+        <!-- Above ends the individual blog post. -->
     </body>
     
     <footer>
+        <!-- Gina's footer lock, so I don't have to make 
+             thousands of posts for an archive -->
         <img src = "images/lock.png" 
-        alt = "A lock indicating that Gina wants money for more access to her content"
+        alt = "A lock indicating that Gina wants money 
+               for more access to her content"
         width = "50" height = "43"> 
-        <p> To access the Gina Gina post archive, join Patreon and link your account. 
-            <br> <br> <a href = login.html> Log out </a> </p>
+        <p> To access the Gina Gina post archive, 
+            join Patreon and link your account. <br> <br>
+            <a href = login.html> Log out </a> </p>
 
+        <!-- Gina's footer ads -->
         <img src = "images/ad-carousel.gif" 
         alt = "Ads because Gina wants money"
         width = "300" height = "51"> <br> <br>

@@ -1,3 +1,5 @@
+/* THE BASICS */
+
 body {
     background: rgb(153, 30, 103);
     color: rgb(251, 249, 249);
@@ -5,40 +7,45 @@ body {
     font-family: "Gill Sans", sans-serif;
 }
 
+/* Article (blog post), as seen on the blog page */
+article {
+    background: rgb(255, 254, 178);
+    border-radius: 25px;
+    box-shadow: 0 0 0 2pt black;
+    /* padding: 20px;  */
+    /* width: auto; */
+}
+
+article p, article span {
+    color: rgb(0, 0, 0);
+}
+
+/* h2 is used on the sign-up and log-in pages as an instruction prompt */
+h2 {
+    font-weight: normal;
+}
+
+/* h1, h3, and h4 are used on the blog page */
+h1, h3, h4 {
+    color: rgb(0, 0, 0);
+}
+
+a {
+    color: rgb(251, 249, 249);
+}
+
+img {
+    vertical-align: middle;
+}
+
+/* Username and password input boxes on the sign-up and log-in pages */
 input {
     font-size: 14px;
     height: 30px;
     width: 200px;
 }
 
-.commentbox {
-    font-size: 12px;
-    height: 20px;
-    width: 600px;
-}
-
-.commentsubmit {
-    background: rgb(134, 221, 134);
-    color: rgb(251, 249, 249);
-    border: None;
-    border-radius: 4px;
-    font-size: 14px;
-    padding: 4px 16px;
-    cursor: pointer;
-    vertical-align: middle;
-}
-
-/* MUST CITE!!!! */
-input[type = "file"] {
-    display: none;
-}
-.custom-file-upload {
-    display: inline-block;
-    color: rgb(87, 190, 254);
-    cursor: pointer;
-}
-/* MUST CITE ABOVE!!!! */
-
+/* Enter buttons on the sign-up and log-in pages */
 button {
     background: rgb(134, 221, 134);
     color: rgb(251, 249, 249);
@@ -53,44 +60,26 @@ button:hover, button:active {
     background: rgb(79, 193, 79);
 }
 
-article {
-    background: rgb(255, 254, 178);
-    border-radius: 25px;
-    box-shadow: 0 0 0 2pt black;
-    /* padding: 20px;  */
-    /* width: auto; */
+/* The following input and custom-file-upload code is 
+   from Josh Crozier on stackoverflow.com */
+/* Profile: https://stackoverflow.com/users/2680216/josh-crozier */
+/* Link to thread: 
+https://stackoverflow.com/questions/572768/styling-an-input-type-file-button */
+/* Link to jsfiddle code: http://jsfiddle.net/4cwpLvae/ */
+input[type = "file"] {
+    display: none;
+}
+.custom-file-upload {
+    display: inline-block;
+    color: rgb(87, 190, 254);
+    cursor: pointer;
 }
 
-.postcontent {
-    box-shadow: 0 0 0 2pt black;
-}
+/* CLASSES */
 
-.commentsection {
-    text-align: left;
-}
+/* Blog page */
 
-article p, article span {
-    color: rgb(0, 0, 0);
-}
-
-h1, h3, h4 {
-    color: rgb(0, 0, 0);
-}
-.comment {
-    padding-left: 1.5em;
-    text-indent: -1.5em;
-}
-
-a {
-    color: rgb(251, 249, 249);
-}
-
-h2 {
-    font-weight: normal;
-    /* padding-right: 500px;
-    padding-left: 500px; */
-}
-
+/* This centers the blog posts. */
 .center {
     display: block;
     margin-left: auto;
@@ -98,10 +87,63 @@ h2 {
     /* width: 50%; */
   }
 
-.blogpost {
+/* This just makes the "Posted by" a little larger. */
+  .blog-poster-tag {
     font-size: 18px;
 }
 
-img {
+/* This adds an outline to each blog post. */
+.post-content {
+    box-shadow: 0 0 0 2pt black;
+}
+
+/* This signals to the user that the reaction buttons are clickable. */
+.reaction {
+    cursor: pointer;
+}
+
+/* This makes the comment section align left. */
+.comment-section {
+    text-align: left;
+}
+
+/* This adds a hanging indent to comments that go over one line.
+.comment {
+    padding-left: 15em;
+    text-indent: -15em;
+} */
+
+/* This adjusts the size of the comment box. */
+.commentbox {
+    font-size: 12px;
+    height: 20px;
+    width: 250px;
+}
+
+/* This adjusts the size of the comment submit button. */
+.commentsubmit {
+    background: rgb(134, 221, 134);
+    color: rgb(251, 249, 249);
+    border: None;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 4px 16px;
+    cursor: pointer;
     vertical-align: middle;
+}
+
+/* Because the unpublish button on the admin page needed to be different colors
+   from the other buttons */
+.unpublish-button  {
+    background: rgb(242, 86, 86);
+    color: rgb(251, 249, 249);
+    border: None;
+    border-radius: 4px;
+    font-size: 20px;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+
+.unpublish-button:hover, .unpublish-button:active {
+    background: rgb(255, 0, 0);
 }
