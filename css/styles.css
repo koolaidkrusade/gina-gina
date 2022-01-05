@@ -97,9 +97,16 @@ input[type = "file"] {
     box-shadow: 0 0 0 2pt black;
 }
 
-/* This signals to the user that the reaction buttons are clickable. */
+/* These style the reaction buttons. */
 .reaction {
+    background: rgba(255, 255, 255, 0);
+    border: None;
     cursor: pointer;
+    padding: 0px
+}
+
+.reaction:hover, .reaction:active {
+    background: rgba(255, 255, 255, 0);
 }
 
 /* This makes the comment section align left. */
