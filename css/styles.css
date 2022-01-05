@@ -65,7 +65,11 @@ article {
     box-shadow: 0 0 0 2pt black;
 }
 
-article p {
+.commentsection {
+    text-align: left;
+}
+
+article p, article span {
     color: rgb(0, 0, 0);
 }
 
