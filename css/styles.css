@@ -14,7 +14,7 @@ input {
 .commentbox {
     font-size: 12px;
     height: 20px;
-    width: 200px;
+    width: 600px;
 }
 
 .commentsubmit {
@@ -76,9 +76,9 @@ article p, article span {
 h1, h3, h4 {
     color: rgb(0, 0, 0);
 }
-span {
-    padding-left: -1.5em;
-    text-indent: 1.5em;
+.comment {
+    padding-left: 1.5em;
+    text-indent: -1.5em;
 }
 
 a {
