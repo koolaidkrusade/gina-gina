@@ -11,6 +11,23 @@ input {
     width: 200px;
 }
 
+.commentbox {
+    font-size: 12px;
+    height: 20px;
+    width: 200px;
+}
+
+.commentsubmit {
+    background: rgb(134, 221, 134);
+    color: rgb(251, 249, 249);
+    border: None;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 4px 16px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
 /* MUST CITE!!!! */
 input[type = "file"] {
     display: none;
@@ -39,12 +56,20 @@ button:hover, button:active {
 article {
     background: rgb(255, 254, 178);
     border-radius: 25px;
+    box-shadow: 0 0 0 2pt black;
     /* padding: 20px;  */
     /* width: auto; */
+}
 
+.postcontent {
+    box-shadow: 0 0 0 2pt black;
 }
 
 article p {
+    color: rgb(0, 0, 0);
+}
+
+h1, h3, h4 {
     color: rgb(0, 0, 0);
 }
 
@@ -64,3 +89,11 @@ h2 {
     margin-right: auto;
     /* width: 50%; */
   }
+
+.blogpost {
+    font-size: 18px;
+}
+
+img {
+    vertical-align: middle;
+}
