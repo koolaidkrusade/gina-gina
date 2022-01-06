@@ -117,7 +117,6 @@ input[type = "file"] {
 
 /* This adds a hanging indent to comments that go over one line. */
 .comment {
-    list-style: none;
     display: flex;
     margin-bottom: 5px;
 }
