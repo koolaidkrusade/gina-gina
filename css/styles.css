@@ -7,10 +7,6 @@ body {
     font-family: "Gill Sans", sans-serif;
 }
 
-header, footer {
-    text-align: center;
-}
-
 /* Article (blog post), as seen on the blog page */
 article {
     background: rgb(255, 175, 222);
