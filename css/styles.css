@@ -1,17 +1,21 @@
 /* THE BASICS */
 
 body {
-    background: rgb(153, 30, 103);
+    background: black;
     color: rgb(251, 249, 249);
     text-align: center;
     font-family: "Gill Sans", sans-serif;
 }
 
+header, footer {
+    text-align: center;
+}
+
 /* Article (blog post), as seen on the blog page */
 article {
-    background: rgb(255, 254, 178);
+    background: rgb(255, 175, 222);
     border-radius: 25px;
-    box-shadow: 0 0 0 2pt black;
+    box-shadow: 0 0 0 2pt rgb(172, 58, 125);
     /* padding: 20px;  */
     /* width: auto; */
 }
@@ -94,7 +98,7 @@ input[type = "file"] {
 
 /* This adds an outline to each blog post. */
 .post-content {
-    box-shadow: 0 0 0 2pt black;
+    box-shadow: 0 0 0 2pt rgb(172, 58, 125);
 }
 
 /* These style the reaction buttons. */
