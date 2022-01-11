@@ -14,6 +14,11 @@ header img, footer img {
     width: auto\9;
 }
 
+/* Sets font size for "Add profile picture" */
+form {
+    font-size: 20px;
+}
+
 /* Article (blog post), as seen on the blog page */
 article {
     background: rgb(255, 175, 222);
