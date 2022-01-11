@@ -36,6 +36,9 @@ a {
 
 img {
     vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
 }
 
 /* Username and password input boxes on the sign-up and log-in pages */
