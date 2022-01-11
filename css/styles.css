@@ -1,7 +1,7 @@
 /* THE BASICS */
 
 body {
-    background-image: url("/images/background.png");
+    background-image: url(./images/background.png);
     background: black;
     color: rgb(251, 249, 249);
     text-align: center;
@@ -30,6 +30,10 @@ article {
 
 article p, article span {
     color: rgb(0, 0, 0);
+}
+
+span {
+    margin-right: 3px;
 }
 
 /* h2 is used on the sign-up and log-in pages as an instruction prompt */
@@ -101,8 +105,8 @@ input[type = "file"] {
 
 /* This just makes the "Posted by" a little larger. */
 .blog-poster-tag {
-    font-size: 22px;
-    padding-top: 22px;
+    font-size: 20px;
+    margin-bottom: 0px;
 }
 
 /* This adds an outline to each blog post. */
