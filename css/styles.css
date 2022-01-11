@@ -125,7 +125,8 @@ input[type = "file"] {
     background: rgba(255, 255, 255, 0);
     border: None;
     cursor: pointer;
-    padding: 0px
+    font-size: 15px;
+    padding: 2px;
 }
 
 .reaction:hover, .reaction:active {
