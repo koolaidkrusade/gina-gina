@@ -68,7 +68,7 @@ button {
     color: rgb(251, 249, 249);
     border: None;
     border-radius: 6px;
-    font-size: 40px;
+    font-size: 25px;
     padding: 10px 25px;
     cursor: pointer;
 }
@@ -126,10 +126,10 @@ input[type = "file"] {
 /* These style the reaction buttons. */
 .reaction {
     background: rgba(255, 255, 255, 0);
-    font-size: 45px;
     border: None;
     cursor: pointer;
     padding: 2px;
+    font-size: 25px;
 }
 
 .reaction:hover, .reaction:active {
@@ -162,7 +162,7 @@ input[type = "file"] {
     color: rgb(251, 249, 249);
     border: None;
     border-radius: 4px;
-    font-size: 24px;
+    font-size: 16px;
     padding: 8px 18px;
     cursor: pointer;
     vertical-align: middle;
