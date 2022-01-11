@@ -142,7 +142,7 @@ input[type = "file"] {
 
 .reaction:hover, .reaction:active {
     background: rgba(255, 255, 255, 0);
-    outline: 2pt solid rgb(172, 58, 125);
+    outline: 2pt solid black;
 }
 
 /* This makes the comment section align left. */
