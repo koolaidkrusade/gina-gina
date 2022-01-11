@@ -100,12 +100,15 @@ input[type = "file"] {
   }
 
 /* This just makes the "Posted by" a little larger. */
-  .blog-poster-tag {
+.blog-poster-tag {
     font-size: 18px;
+    padding-top: 20px;
 }
 
 /* This adds an outline to each blog post. */
 .post-content {
+    padding-top: 5px;
+    padding-bottom: 5px;
     box-shadow: 0 0 0 2pt rgb(172, 58, 125);
 }
 
@@ -130,6 +133,7 @@ input[type = "file"] {
 /* This adds a hanging indent to comments that go over one line. */
 .comment {
     display: flex;
+    margin-right: 5px;
     margin-bottom: 5px;
 }
 
