@@ -47,9 +47,9 @@ img {
 
 /* Username and password input boxes on the sign-up and log-in pages */
 input {
-    font-size: 14px;
-    height: 30px;
-    width: 200px;
+    font-size: 20px;
+    height: 45px;
+    width: 300px;
 }
 
 /* Enter buttons on the sign-up and log-in pages */
@@ -57,9 +57,9 @@ button {
     background: rgb(134, 221, 134);
     color: rgb(251, 249, 249);
     border: None;
-    border-radius: 4px;
-    font-size: 20px;
-    padding: 8px 20px;
+    border-radius: 6px;
+    font-size: 25px;
+    padding: 10px 25px;
     cursor: pointer;
 }
 
