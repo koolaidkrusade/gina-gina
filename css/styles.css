@@ -7,6 +7,12 @@ body {
     font-family: "Gill Sans", sans-serif;
 }
 
+header img, footer img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+
 /* Article (blog post), as seen on the blog page */
 article {
     background: rgb(255, 175, 222);
@@ -36,9 +42,6 @@ a {
 
 img {
     vertical-align: middle;
-    max-width: 100%;
-    height: auto;
-    width: auto\9;
 }
 
 /* Username and password input boxes on the sign-up and log-in pages */
