@@ -1,0 +1,18 @@
+{
+"posts": {
+    "post-1": {
+        "postName": "Preshow",
+        "color": "Make hex # instead rgb(255, 175, 222)",
+        "outline": "rgb(172, 58, 125)",
+        
+        "poster": "@ginagina",
+        "posterProfilePicture": "images/default-profile.png",
+
+        "title": "A blog post",
+        "caption": "This is my caption for this post.",
+        "image": "images/demo-post.png"
+        }
+
+    }
+}
+        
