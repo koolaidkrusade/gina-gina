@@ -21,13 +21,13 @@ form {
 }
 
 /* Article (blog post), as seen on the blog page */
-article {
+/* article {
     background: #DFCAB9;
-    /* border-radius: 25px; */
+    border-radius: 25px;
     box-shadow: 0 0 0 15pt #EFE5DC;
-    /* padding: 20px;  */
-    /* width: auto; */
-}
+    padding: 20px; 
+    width: auto;
+} */
 
 article p, article span {
     color: #36413E;
