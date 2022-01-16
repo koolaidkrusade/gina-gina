@@ -195,3 +195,16 @@ input[type = "file"] {
 .unpublish-button:hover, .unpublish-button:active {
     background: rgb(255, 0, 0);
 }
+
+img.emoji {
+    /* Since we are using SVGs, you have to change the width using CSS */
+    width: 1.3em;
+
+    /* 
+    This is to make the emojis feel like actual emojis to 
+    the user and they won't act like images. This makes the emojis
+    non-reactive to any mouse events such as dragging, 
+    hovering, clicking etc. Makes it feel like its actual text.
+    */
+    pointer-events: none; 
+}

@@ -15,6 +15,19 @@
         <link rel="preconnect" href="https://fonts.googleapis.com"> 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
         <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+        
+        <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+
+        <script>
+            window.onload = function() {    
+                // Parses the document body and    
+                // inserts <img> tags in place of Unicode Emojis    
+                twemoji.parse(document.body, 
+                        {folder: 'svg', ext: '.svg'} // This is to specify to Twemoji to use SVGs and not PNGs
+                );
+            }
+        </script>
+
     </head>
 
     <header>
@@ -42,7 +55,7 @@
                 alt = "Gina's profile picture"
                 width = "90" height = "49.5">
                 <b> @ginagina </b>
-            </p> <br/>
+            </p>
 
             <!-- Title of the post -->
             <p><h1> I'm happy as all can be, you guys. We will
@@ -51,33 +64,34 @@
             <!-- These are the reaction buttons.
                  Every reaction and every count has a unique ID -->
             <div class = "reaction-section"> 
-                <button type = "button" class = "reaction" id = "thumbs-up"> 
-                    👍 </button>
+                <button type = "button" class = "reaction" id = "thumbs-up">
+                    😰 </button>
                 <span id = "thumbs-up-num"> 5 </span>
                 <br/>
-                <button type = "button" class = "reaction" id = "heart"> 
-                    💗 </button>
+                <button type = "button" class = "reaction" id = "heart">
+                    😵‍💫 </button>
                 <span id = "heart-num"> 3 </span>
                 <br/>
-                <button type = "button" class = "reaction" id = "heart-eyes"> 
-                    😍 </button>
+                <button type = "button" class = "reaction" id = "heart-eyes">
+                    🤬 </button>
                 <span id = "heart-eyes-num"> 1 </span>
                 <br/>
-                <button type = "button" class = "reaction" id = "laughing"> 
-                    😂 </button>
+                <button type = "button" class = "reaction" id = "laughing">
+                    🤣 </button>
                 <span id = "laughing-num"> 1 </span>
                 <br>
-                <button type = "button" class = "reaction" id = "shocked"> 
-                    😮 </button>
+                <button type = "button" class = "reaction" id = "shocked">
+                    🥰 </button>
                 <span id = "shocked-num"> 6 </span>
                 <br/>
-                <button type = "button" class = "reaction" id = "sad"> 
-                    😥 </button>
+                <button type = "button" class = "reaction" id = "sad">
+                    🤤 </button>
                 <span id = "sad-num"> 0 </span>
                 <br/>
                 <button type = "button" class = "reaction" id = "mad"> 
-                    😡 </button>
+                    ✊🏿 </button>
                 <span id = "mad-num"> 1 </span>
+                <br/>
             </div>
 
             <!-- Image in the post -->
