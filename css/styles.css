@@ -141,7 +141,7 @@ input[type = "file"] {
     border: None;
     cursor: pointer;
     padding: 2px;
-    font-size: 40px;
+    font-size: 25px;
 }
 
 .reaction:hover, .reaction:active {
