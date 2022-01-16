@@ -129,10 +129,11 @@ input[type = "file"] {
     padding-bottom: 2px;
     margin-top: 0px;
     box-shadow: 0 0 0 15pt #EFE5DC; */
-    width: 200px;
+    width: 100px;
     vertical-align: middle;
-    overflow: hidden;
+    /* overflow: hidden; */
     display: inline-block;
+    font-size: 20px;
   }
 
 /* These style the reaction buttons. */
@@ -141,7 +142,6 @@ input[type = "file"] {
     border: None;
     cursor: pointer;
     padding: 2px;
-    font-size: 25px;
 }
 
 .reaction:hover, .reaction:active {
