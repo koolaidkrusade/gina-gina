@@ -131,7 +131,7 @@ input[type = "file"] {
     display: inline-block;
     font-size: 20px;
     line-height: 2.5;
-    margin-left: -10px;
+    margin-left: -15px;
   }
 
 /* These style the reaction buttons. */
