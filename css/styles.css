@@ -127,11 +127,11 @@ input[type = "file"] {
 .reaction-section {
     width: 100px;
     vertical-align: middle;
-    text-align: center;
     overflow: hidden;
     display: inline-block;
     font-size: 20px;
     line-height: 2.5;
+    margin-left: -10px;
   }
 
 /* These style the reaction buttons. */
