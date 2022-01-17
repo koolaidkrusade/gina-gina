@@ -33,7 +33,7 @@ article p, article span {
 }
 
 span {
-    margin-right: 3px;
+    margin-right: 5px;
 }
 
 /* h2 is used on the sign-up and log-in pages as an instruction prompt */
@@ -121,7 +121,7 @@ input[type = "file"] {
 }
 
 .post-content {
-    text-align: center;
+    margin: auto;
 }
 
 .reaction-section {
@@ -130,6 +130,7 @@ input[type = "file"] {
     overflow: hidden;
     display: inline-block;
     font-size: 20px;
+    line-height: 2.5;
   }
 
 /* These style the reaction buttons. */
@@ -153,7 +154,7 @@ input[type = "file"] {
 /* This adds a hanging indent to comments that go over one line. */
 .comment {
     display: flex;
-    margin-right: 3px;
+    margin-right: 5px;
     margin-bottom: 5px;
 }
 
@@ -205,3 +206,28 @@ img.emoji {
     */
     pointer-events: none; 
 }
+
+/* The following code that wraps comments and prevents them from going off screen
+   is from Rahul on stackoverflow.com */
+/* Profile: https://stackoverflow.com/users/6556397/rahul */
+/* Link to thread: 
+https://stackoverflow.com/questions/3247358/how-do-i-wrap-text-with-no-whitespace-inside-a-td */
+.dont-break-out {
+
+    /* These are technically the same, but use both */
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  
+    -ms-word-break: break-all;
+    /* This is the dangerous one in WebKit, as it breaks things wherever */
+    word-break: break-all;
+    /* Instead use this non-standard one: */
+    word-break: break-word;
+  
+    /* Adds a hyphen where the word breaks, if supported (No Blink) */
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+  
+  }
