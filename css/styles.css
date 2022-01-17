@@ -127,6 +127,7 @@ input[type = "file"] {
 .reaction-section {
     width: 100px;
     vertical-align: middle;
+    text-align: center;
     overflow: hidden;
     display: inline-block;
     font-size: 20px;
