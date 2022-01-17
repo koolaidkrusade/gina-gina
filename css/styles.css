@@ -118,10 +118,11 @@ input[type = "file"] {
     font-size: 20px;
     margin-bottom: 0px;
     padding: 5px;
+    text-align: center;
 }
 
-.post-content h1 {
-    font-size: 25px
+.post-content {
+    text-align: center;
 }
 
 .reaction-section {
