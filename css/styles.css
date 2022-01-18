@@ -63,11 +63,10 @@ input {
 
 /* Enter buttons on the sign-up and log-in pages */
 button {
-    font-family: "Cormorant Garamond", "Cinzel", "Georgia", serif;
+    font-family: "Cormorant Garamond", serif;
     background: rgb(134, 221, 134);
     color: rgb(251, 249, 249);
     border: None;
-    /* border-radius: 6px; */
     font-size: 25px;
     padding: 10px 25px;
     cursor: pointer;
@@ -156,7 +155,7 @@ span b {
 /* This makes the comment section align left. */
 .comment-section {
     text-align: left;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 /* This adds a hanging indent to comments that go over one line. */
