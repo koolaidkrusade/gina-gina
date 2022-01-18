@@ -19,15 +19,6 @@ form {
     font-size: 20px;
 }
 
-/* Article (blog post), as seen on the blog page */
-/* article {
-    background: #DFCAB9;
-    border-radius: 25px;
-    box-shadow: 0 0 0 15pt #EFE5DC;
-    padding: 20px; 
-    width: auto;
-} */
-
 article p, article span {
     color: #36413E;
 }
@@ -67,7 +58,7 @@ button {
     background: rgb(134, 221, 134);
     color: rgb(251, 249, 249);
     border: None;
-    font-size: 25px;
+    font-size: 25pt;
     padding: 10px 25px;
     cursor: pointer;
 }
@@ -142,6 +133,7 @@ span b {
 /* These style the reaction buttons. */
 .reaction {
     background: rgba(255, 255, 255, 0);
+    font-size: 25px;
     border: None;
     cursor: pointer;
     padding: 2px;
@@ -155,7 +147,11 @@ span b {
 /* This makes the comment section align left. */
 .comment-section {
     text-align: left;
-    font-size: 17px;
+    font-size: 18.5px;
+}
+
+.comment img {
+    margin-top: 5pt;
 }
 
 /* This adds a hanging indent to comments that go over one line. */
@@ -163,6 +159,7 @@ span b {
     display: flex;
     margin-right: 5px;
     margin-bottom: 5px;
+    font-weight: 400;
 }
 
 /* This adjusts the size of the comment box. */
@@ -236,5 +233,8 @@ https://stackoverflow.com/questions/3247358/how-do-i-wrap-text-with-no-whitespac
     -moz-hyphens: auto;
     -webkit-hyphens: auto;
     hyphens: auto;
-  
   }
+
+.redirect {
+    font-size: 14pt;
+}
