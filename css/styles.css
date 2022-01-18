@@ -167,6 +167,7 @@ span b {
     font-size: 16px;
     height: 35px;
     width: 250px;
+    vertical-align: middle;
 }
 
 /* This adjusts the size of the comment submit button. */
@@ -178,7 +179,6 @@ span b {
     font-size: 16px;
     padding: 8px 18px;
     cursor: pointer;
-    vertical-align: middle;
 }
 
 /* Because the unpublish button on the admin page needed to be different colors
