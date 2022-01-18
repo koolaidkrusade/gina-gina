@@ -4,8 +4,8 @@ body {
     background: #EFE5DC;
     color: #7E583A;
     text-align: center;
-    font-family: "Cormorant Garamond", "Cinzel", "Georgia", serif;
-    font-weight: lighter;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 500;
 }
 
 header img, footer img, .blog-ad {
@@ -94,6 +94,11 @@ input[type = "file"] {
     cursor: pointer;
 }
 
+/* Comment poster username */
+span b {
+    font-family: "Cedarville Cursive", cursive;
+}
+
 /* CLASSES */
 
 /* Blog page */
@@ -114,7 +119,8 @@ input[type = "file"] {
 
 /* This just makes the "Posted by" a little larger. */
 .blog-poster-tag {
-    font-size: 20px;
+    font-family: "Cedarville Cursive", cursive;
+    font-size: 27px;
     margin-bottom: 0px;
     padding: 5px;
     text-align: center;
@@ -129,9 +135,10 @@ input[type = "file"] {
     vertical-align: middle;
     overflow: hidden;
     display: inline-block;
+    font-family: "Cedarville Cursive", cursive;
     font-size: 20px;
     line-height: 2.5;
-    margin-left: -15px;
+    margin-left: -17px;
   }
 
 /* These style the reaction buttons. */
