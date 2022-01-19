@@ -239,3 +239,8 @@ https://stackoverflow.com/questions/3247358/how-do-i-wrap-text-with-no-whitespac
 .redirect {
     font-size: 14pt;
 }
+
+.nav {
+   position: fixed;
+   top: 0;
+}
