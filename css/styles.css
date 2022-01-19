@@ -241,6 +241,7 @@ https://stackoverflow.com/questions/3247358/how-do-i-wrap-text-with-no-whitespac
 }
 
 .nav {
-   position: fixed;
-   top: 0px;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
 }
