@@ -87,6 +87,10 @@ span b {
     font-family: "Cedarville Cursive", cursive;
 }
 
+hr {
+    border: 1px solid #36413E;
+}
+
 /* CLASSES */
 
 /* Blog page */
@@ -114,8 +118,8 @@ span b {
     text-align: center;
 }
 
-.post-content {
-    margin: auto;
+.post-photo {
+    border: 2.5px solid #36413E;
 }
 
 .reaction-section {
