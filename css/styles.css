@@ -6,6 +6,7 @@ body {
     text-align: center;
     font-family: "Cormorant Garamond", serif;
     font-weight: 600;
+    margin: 0px;
 }
 
 header img, footer img, .blog-ad {
@@ -244,4 +245,5 @@ https://stackoverflow.com/questions/3247358/how-do-i-wrap-text-with-no-whitespac
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
+    width: 100%;
 }
