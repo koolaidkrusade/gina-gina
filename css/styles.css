@@ -9,10 +9,6 @@ body {
     margin: 0px;
 }
 
-.blog-page {
-    margin-top: 70px;
-}
-
 header img, footer img, .blog-ad {
     max-width: 100%;
     height: auto;
@@ -243,7 +239,8 @@ https://stackoverflow.com/questions/3247358/how-do-i-wrap-text-with-no-whitespac
 
 .redirect {
     font-size: 14pt;
-    margin: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .nav {
