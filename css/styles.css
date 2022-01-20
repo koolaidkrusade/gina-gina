@@ -9,6 +9,10 @@ body {
     margin: 0px;
 }
 
+img {
+    vertical-align: middle;
+}
+
 header img, footer img, .blog-ad {
     max-width: 100%;
     height: auto;
@@ -20,12 +24,21 @@ form {
     font-size: 20px;
 }
 
+table {
+    font-size: 20pt;
+}
+
 article p, article span {
     color: #36413E;
 }
 
 span {
     margin-right: 5px;
+}
+
+/* Comment poster username */
+span b {
+    font-family: "Cedarville Cursive", cursive;
 }
 
 /* h2 is used on the sign-up and log-in pages as an instruction prompt */
@@ -42,8 +55,8 @@ a {
     color: #7E583A;
 }
 
-img {
-    vertical-align: middle;
+hr {
+    border: 1px solid #36413E;
 }
 
 /* Username and password input boxes on the sign-up and log-in pages */
@@ -83,22 +96,7 @@ input[type = "file"] {
     cursor: pointer;
 }
 
-/* Comment poster username */
-span b {
-    font-family: "Cedarville Cursive", cursive;
-}
-
-hr {
-    border: 1px solid #36413E;
-}
-
-table {
-    font-size: 20pt;
-}
-
 /* CLASSES */
-
-/* Blog page */
 
 /* This centers the blog posts. */
 .center {
@@ -108,13 +106,29 @@ table {
     /* width: 50%; */
   }
 
-.left{
-    width:50%;
-    float:left;
-    height:100px;
-  }
+/* Styles the director's precious emojis */
+img.emoji {
+    /* Since we are using SVGs, you have to change the width using CSS */
+    width: 1.3em;
 
-/* This just makes the "Posted by" a little larger. */
+    /* 
+    This is to make the emojis feel like actual emojis to 
+    the user and they won't act like images. This makes the emojis
+    non-reactive to any mouse events such as dragging, 
+    hovering, clicking etc. Makes it feel like its actual text.
+    */
+    pointer-events: none; 
+}
+
+.nav {
+    background: #EFE5DC;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+
+  /* This just makes the "Posted by" a little larger. */
 .blog-poster-tag {
     font-family: "Cedarville Cursive", cursive;
     font-size: 27px;
@@ -132,7 +146,7 @@ table {
     vertical-align: middle;
     overflow: hidden;
     display: inline-block;
-    font-family: "Cedarville Cursive", cursive;
+    font-family: "Cormorant Garamond", serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 2.5;
@@ -187,33 +201,25 @@ table {
     cursor: pointer;
 }
 
+.redirect {
+    font-size: 14pt;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 /* Because the unpublish button on the admin page needed to be different colors
    from the other buttons */
 .unpublish-button  {
     background: rgb(242, 86, 86);
     color: rgb(251, 249, 249);
     border: None;
-    font-size: 25px;
+    font-size: 25pt;
     padding: 10px 25px;
     cursor: pointer;
 }
 
 .unpublish-button:hover, .unpublish-button:active {
     background: rgb(255, 0, 0);
-}
-
-/* Styles the director's precious emojis */
-img.emoji {
-    /* Since we are using SVGs, you have to change the width using CSS */
-    width: 1.3em;
-
-    /* 
-    This is to make the emojis feel like actual emojis to 
-    the user and they won't act like images. This makes the emojis
-    non-reactive to any mouse events such as dragging, 
-    hovering, clicking etc. Makes it feel like its actual text.
-    */
-    pointer-events: none; 
 }
 
 /* The following code that wraps comments and prevents them from going off screen
@@ -239,17 +245,3 @@ https://stackoverflow.com/questions/3247358/how-do-i-wrap-text-with-no-whitespac
     -webkit-hyphens: auto;
     hyphens: auto;
   }
-
-.redirect {
-    font-size: 14pt;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.nav {
-    background: #EFE5DC;
-    position: fixed;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
-}
