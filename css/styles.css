@@ -9,6 +9,10 @@ body {
     margin: 0px;
 }
 
+.blog-page {
+    margin-top: 70px;
+}
+
 header img, footer img, .blog-ad {
     max-width: 100%;
     height: auto;
