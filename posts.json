@@ -1,13 +1,13 @@
 {
 "posts": {
     "post-1": {
+        "ad": "images/ad-carousel.gif",
         "postName": "Preshow",
         
         "poster": "@ginagina",
         "posterProfilePicture": "images/default-profile.png",
 
-        "title": "A blog post",
-        "caption": "This is my caption for this post.",
+        "caption": "I'm happy as all can be, you guys. We will continue the fight!",
         "image": "images/demo-post.png"
         }
 

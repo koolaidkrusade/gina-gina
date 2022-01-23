@@ -120,6 +120,10 @@ img.emoji {
     pointer-events: none; 
 }
 
+.error {
+    color: red;
+}
+
 .nav {
     background: #EFE5DC;
     position: fixed;

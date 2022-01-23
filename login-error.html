@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <!-- This titles the page in the browser. -->
+        <title>
+            Log In - Gina Gina
+        </title>
+        <!-- This enables mobile browser support, identifies the alphabet
+             we're using, and links the style sheet. -->
+        <meta name = "viewport" content = "width = device-width,
+            initial-scale = 1 maximum-scale = 1"/>
+        <meta charset = "utf-8"/>
+        <link rel = "stylesheet" href = "css/styles.css"/>
+
+        <!-- Links Google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com"/> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/> 
+        <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Cormorant+Garamond:wght@400;600&display=swap"
+        rel="stylesheet"/>
+    </head>
+
+    <header>
+        <!-- Gina's logo -->
+        <!-- Later in the process, try making this logo responsive
+             for width and resolution. -->
+        <img src = "images/logo.png" 
+        alt = "Gina Gina Blog logo, elegant and bougie"
+        width = "300" height = "253"/> 
+    </header>
+    
+    <body>
+        <p> <h2> 
+            Log in to access and interact with Gina Gina blog content. 
+        </h2> </p>
+
+        <p class = "error"> The username and/or password is incorrect. 
+            Please try again.</p>
+
+        <!-- Log-in form, once completed takes you to the blog -->
+        <form action = "quote-page.html">
+            
+            <input type = "text" placeholder = "Username" 
+            id = "username" name = "username" required> <br/> <br/>
+            
+            <input type = "password" placeholder = "Password" 
+            id = "password" name = "password" required> <br/> <br/>
+
+            <button type = "submit"> → </button>
+        </form>
+
+        <!-- This links you to the sign-up page. -->
+        <p class = "redirect"> Don't have an account? <a href = "signup.html"> 
+            Sign up here. </a> </p>
+    </body>
+</html>
