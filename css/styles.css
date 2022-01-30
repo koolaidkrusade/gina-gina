@@ -122,6 +122,13 @@ img.emoji {
 
 .error {
     color: red;
+    font-size: 14pt;
+}
+
+.upload-message {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: lighter;
 }
 
 .nav {
