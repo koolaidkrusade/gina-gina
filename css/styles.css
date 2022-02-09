@@ -126,9 +126,9 @@ img.emoji {
 }
 
 .upload-message {
+    font-weight: lighter;
     margin-left: 10px;
     margin-right: 10px;
-    font-weight: lighter;
 }
 
 .nav {
